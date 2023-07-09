@@ -6,6 +6,7 @@ body {
 h1{
     background-color: rgb(228, 77, 38);
     width: fit-content;
+    font-weight: bold;
 }
 
 .container{
