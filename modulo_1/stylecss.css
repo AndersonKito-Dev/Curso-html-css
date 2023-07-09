@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(15, 15, 15);
+    color: aliceblue;
+}
+
+h1{
+    background-color: rgb(228, 77, 38);
+    width: fit-content;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    
+}
