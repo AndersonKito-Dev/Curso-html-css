@@ -1,0 +1,14 @@
+body{
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+}
+
+nav a{
+    color: rgb(167, 243, 243);
+}
+
+img{
+    background-color: aliceblue;
+}
