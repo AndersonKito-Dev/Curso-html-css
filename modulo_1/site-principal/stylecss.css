@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(15, 15, 15);
+    color: aliceblue;
+    font-size: larger;
+}
+
+h1{
+    font-weight: bold;
+    background-color: rgb(228, 77, 38);
+    width: fit-content;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    color:coral
+}
