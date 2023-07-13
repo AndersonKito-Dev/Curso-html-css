@@ -9,6 +9,16 @@ body{
     flex-direction:column;
 }
 
+.link{
+    text-align: center;
+
+}
+
 .back{
     text-align: center;
+    flex-direction:column;
+}
+
+a{
+    color: aliceblue;
 }
