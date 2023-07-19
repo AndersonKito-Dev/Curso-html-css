@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    background-color: darkgray;
+    height: fit-content;
+    width: fit-content;
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(7, 80, 214);
+    padding: 20px;
+}
+
+a{
+    color: coral;
+    text-decoration: underline;
+    border-width: 3px;
+    border-style:solid;
+    border-color: red;
+    padding: 2.5px;
+}
