@@ -15,6 +15,21 @@ h1{
     align-items: center;
 }
 
-nav a{
-    color:coral
+a{
+    color:coral;
+    text-decoration: none;
+}
+
+.especial:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.especial:before{
+    content: '>';
+    font-weight: lighter;
+}
+
+.especial:after{
+    content: '<';
 }

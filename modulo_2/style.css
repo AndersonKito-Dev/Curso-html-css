@@ -3,7 +3,7 @@
 body{
     background-image: linear-gradient(to right, #768DB8,#5D6F91,#343F52);
     color: aliceblue;
-    font-family: Arial, Helvetica, sans-serif;
+    font: italic bold 1.5em 'Arial', sans-serif;
 }
 
 main{
@@ -15,6 +15,12 @@ main{
     margin: auto;
 }
 
+#titulo-principal{
+    background-color: rgb(138, 165, 214);
+    color: red;
+    text-decoration: underline;
+}
+
 h1{
     text-align: center;
     color: #5D6F91;
@@ -24,7 +30,74 @@ h2{
     color: #768DB8;
 }
 
+.fonte-paragrafo{
+    font: italic 1em 'Times', serif;
+    color: aliceblue
+}
+
 p{
     color: rgb(138, 165, 214);
     text-align: justify;
+}
+
+.corte{
+    text-decoration:line-through;
+}
+
+a{
+    color:cadetblue;
+    text-decoration: none;
+}
+
+a::after{
+    content: ' [link]';
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    color: darkolivegreen;
+}
+
+.links:hover{
+    text-decoration: underline;
+    color: aquamarine;
+    background-color: #343F52;
+}
+
+
+.links:hover::before{
+    content: '>';
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    color: darkolivegreen;
+}
+
+.links:hover::after{
+    content: '<';
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    color: darkolivegreen;
+}
+
+.especial{
+    background-color: rgb(238, 255, 6);
+}
+
+.especial::before{
+    content: '->';
+}
+
+.especial::after{
+    content: '<- [link]';
+}
+
+div > p{
+    display: none;
+}
+
+div:hover > p{
+    display: block;
+    color: white;
+    background-color: red;
 }
