@@ -5,19 +5,39 @@ body{
 
 h1{
     background-color: darkgray;
+
     height: fit-content;
     width: fit-content;
-    border-width: 10px;
+
+    /* border-width: 10px;
     border-style: solid;
-    border-color: rgb(7, 80, 214);
-    padding: 20px;
+    border-color:rgb(5, 79, 119); */
+    border: 10px solid rgb(5,79,119);
+
+
+    /* padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px; */
+    padding: 10px 20px;
+
+    /* margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-left: 10px; */
+    margin: 20px 20px 40px 10px;
+    
+    outline: auto;
+    outline-style: dotted;
 }
 
 a{
     color: coral;
     text-decoration: underline;
+    
     border-width: 3px;
     border-style:solid;
     border-color: red;
+    
     padding: 2.5px;
 }
