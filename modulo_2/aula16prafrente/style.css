@@ -3,7 +3,9 @@ body{
 }
 
 main{
-    margin: 20px;
+    margin: 20px 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.274);
     color: black;
 }
 
@@ -20,7 +22,7 @@ footer > p{
 
 article{
     background-color: rgb(200, 200, 200);
-    margin: 20px;
+    margin: 30px;
 }
 
 nav, header{
@@ -34,7 +36,7 @@ nav, header{
     padding-right: 20px;
     padding-bottom: 10px;
     padding-left: 20px; */
-    padding: 10px 20px;
+    padding: 5px 10px;
 }
 
 header{
@@ -44,7 +46,7 @@ header{
     /* border-width: 10px;
     border-style: solid;
     border-color:rgb(5, 79, 119); */
-    border: 10px solid rgb(0, 100, 200);
+    border: 5px solid rgb(0, 100, 200);
 }
 
 nav{
@@ -61,5 +63,5 @@ nav{
 
     padding: 2.5px;
 
-    box-shadow: 10px 5px 5px 1px black;
+    box-shadow: 10px 5px 5px 1px rgba(0, 0, 0, 0.521);
 }
