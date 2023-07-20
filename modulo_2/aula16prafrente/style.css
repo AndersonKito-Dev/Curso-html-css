@@ -3,26 +3,42 @@ body{
     color: white;
 }
 
-h1{
-    background-color: darkgray;
+main{
+    margin: 20px;
+}
 
-    /* border-width: 10px;
-    border-style: solid;
-    border-color:rgb(5, 79, 119); */
-    border: 10px solid rgb(5,79,119);
+footer{
+    padding: 10px;
+    text-align: center;
+}
 
+article{
+    background-color: darkgoldenrod;
+    margin: 20px;
+}
+
+nav, header{
+    /* margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-left: 10px; */
+    margin: 20px 10px 40px 10px;
 
     /* padding-top: 10px;
     padding-right: 20px;
     padding-bottom: 10px;
     padding-left: 20px; */
     padding: 10px 20px;
+}
 
-    /* margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 40px;
-    margin-left: 10px; */
-    margin: 20px 20px 40px 10px;
+header{
+    text-align: center;
+    background-color: darkgray;
+
+    /* border-width: 10px;
+    border-style: solid;
+    border-color:rgb(5, 79, 119); */
+    border: 10px solid rgb(5,79,119);
 }
 
 a{
@@ -35,13 +51,4 @@ a{
     border: 3px solid red;
     
     padding: 2.5px;
-}
-
-main{
-    margin: 20px;
-}
-
-footer{
-    padding: 10px;
-    text-align: center;
 }
