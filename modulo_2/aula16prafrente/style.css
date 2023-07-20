@@ -1,19 +1,25 @@
 body{
-    background-color: black;
-    color: white;
+    background-color: rgb(46, 46, 46);
 }
 
 main{
     margin: 20px;
+    color: black;
 }
 
 footer{
-    padding: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px;
     text-align: center;
 }
 
+footer > p{
+    margin: 0px
+}
+
 article{
-    background-color: darkgoldenrod;
+    background-color: rgb(200, 200, 200);
     margin: 20px;
 }
 
@@ -33,15 +39,16 @@ nav, header{
 
 header{
     text-align: center;
-    background-color: darkgray;
+    background-color: rgb(200, 200, 200);
 
     /* border-width: 10px;
     border-style: solid;
     border-color:rgb(5, 79, 119); */
-    border: 10px solid rgb(5,79,119);
+    border: 10px solid rgb(0, 100, 200);
 }
 
-a{
+nav{
+    background-color: rgb(200, 200, 200);
     color: coral;
     text-decoration: underline;
     
@@ -50,5 +57,9 @@ a{
     border-color: red; */
     border: 3px solid red;
     
+    margin: 20px;
+
     padding: 2.5px;
+
+    box-shadow: 10px 5px 5px 1px black;
 }
