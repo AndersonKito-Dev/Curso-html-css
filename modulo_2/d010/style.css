@@ -3,9 +3,15 @@ body{
 }
 
 header{
-    background-color: aqua;
+    /* background-image: linear-gradient(to , #768DB8,#5D6F91,aqua); */
+    background-image: linear-gradient(to bottom, #3CD983, #1A5C38);
+    color: white;
 
     text-align: center;
+}
+
+#subtitulo{
+    font-size: 75%;
 }
 
 #menu{
