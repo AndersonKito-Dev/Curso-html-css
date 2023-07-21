@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Idroid';
+    src: url(/modulo_2/d010/docs/fontes/idroid.otf);
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -8,6 +13,9 @@ header{
     color: white;
 
     text-align: center;
+
+    margin: 0px;
+    padding: 10px;
 }
 
 #subtitulo{
@@ -15,5 +23,15 @@ header{
 }
 
 #menu{
+    background-color: #1A5C38;
+    color: white;
+    
+    font-size: 90%;
+    word-spacing: 10px;
+
     text-align: left;
+
+    border: 100px;
+    padding: 0.5px;
+    padding-left: 15px;
 }
