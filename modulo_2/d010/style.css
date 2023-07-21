@@ -1,0 +1,13 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: aqua;
+
+    text-align: center;
+}
+
+#menu{
+    text-align: left;
+}
