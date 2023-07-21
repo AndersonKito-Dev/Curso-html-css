@@ -6,6 +6,7 @@ main{
     margin: 20px 20px;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.274);
+    border-radius: 20px;
     color: black;
 }
 
@@ -23,6 +24,7 @@ footer > p{
 article{
     background-color: rgb(200, 200, 200);
     margin: 30px;
+    width: fit-content;
 }
 
 nav, header{
@@ -59,9 +61,11 @@ nav{
     border-color: red; */
     border: 3px solid red;
     
-    margin: 20px;
-
+    margin: 30px;
+    
     padding: 2.5px;
+    
+    width: fit-content;
 
     box-shadow: 10px 5px 5px 1px rgba(0, 0, 0, 0.521);
 }
