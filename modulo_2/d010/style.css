@@ -49,11 +49,15 @@ header{
     border: 10px;
 }
 
-.imagem-container{
+.flex-container{
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: ;
+}
+
+img {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
 }
 
 main{
