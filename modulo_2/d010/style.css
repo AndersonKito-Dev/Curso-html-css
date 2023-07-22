@@ -12,22 +12,28 @@ body{
 }
 
 header{
-    /* background-image: linear-gradient(to , #768DB8,#5D6F91,aqua); */
     background-image: linear-gradient(to bottom, #3CD983, #1A5C38);
     color: white;
-
+    
     text-align: center;
-
+    
     margin: 0px;
     padding: 10px;
 }
 
+#titulo-principal{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
 #subtitulo{
     font-size: 75%;
+    
     width: 300px;
-    margin: 30px 80px 10px;
     padding-left: 200px;
     padding-bottom: 0px;
+    
+    margin: 30px 80px 0px 80px;
 }
 
 #menu{
@@ -39,22 +45,36 @@ header{
 
     text-align: left;
 
-    margin: 0px 0px;
-    padding-top: 0.5px;
-    padding-left: 15px;
+    padding: 0.5px 15px;
+    border: 10px;
 }
 
+.imagem-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: ;
+}
 
 main{
     background-color: white;
 
     margin: 0px 100px;
 
-    padding: 30px 20px;
-
+    padding: 10px 20px;
 }
 
-h1{
+h2{
+    font-family: 'Idroid';
+    color: #195C38;
+}
 
-    margin: 0px;
+p{
+    text-indent: 50px;
+}
+
+h3{
+    font-family: 'Idroid';
+    color: #195C38;
+    background-image: linear-gradient(to right, #84E1AD, white);
 }
