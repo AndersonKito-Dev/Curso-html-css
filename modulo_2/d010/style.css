@@ -50,7 +50,7 @@ header{
     border: 10px;
 }
 
-.flex-container{
+.img-container{
     display: flex;
     justify-content: center;
 }
@@ -61,8 +61,10 @@ img {
     height: auto; 
 }
 
-.video{
-
+.video-container{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
 
 main{
