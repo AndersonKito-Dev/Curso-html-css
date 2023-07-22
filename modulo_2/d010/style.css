@@ -57,13 +57,13 @@ header{
 img {
     flex: 1;
     max-width: 100%;
-    height: auto;
+    height: auto; 
 }
 
 main{
     background-color: white;
 
-    margin: 0px 100px;
+    margin: 0px 150px;
 
     padding: 10px 20px;
 }
