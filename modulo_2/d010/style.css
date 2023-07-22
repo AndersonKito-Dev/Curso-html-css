@@ -28,14 +28,10 @@ header{
 
 #subtitulo{
     font-size: 75%;
-    
-    width: 300px;
-    /* padding-left: 200px; */
-    padding-bottom: 0px;
-    
+   
     text-align: center;
-    margin: 30px 80px 0px 80px;
 }
+
 
 #menu{
     background-color: #1A5C38;
