@@ -5,6 +5,10 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #84E1AD;
+
+    margin: 0px;
 }
 
 header{
@@ -20,6 +24,10 @@ header{
 
 #subtitulo{
     font-size: 75%;
+    width: 300px;
+    margin: 30px 80px 10px;
+    padding-left: 200px;
+    padding-bottom: 0px;
 }
 
 #menu{
@@ -31,7 +39,22 @@ header{
 
     text-align: left;
 
-    border: 100px;
-    padding: 0.5px;
+    margin: 0px 0px;
+    padding-top: 0.5px;
     padding-left: 15px;
+}
+
+
+main{
+    background-color: white;
+
+    margin: 0px 100px;
+
+    padding: 30px 20px;
+
+}
+
+h1{
+
+    margin: 0px;
 }
