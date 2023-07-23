@@ -81,8 +81,6 @@ header{
     border: 10px;
 }
 
-
-
 .Secao-textual{
     background-color: white;
 
@@ -99,6 +97,11 @@ header{
 
 p{
     text-indent: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #3CD983;
 }
 
 .titulos-secundarios{
@@ -133,10 +136,16 @@ p{
 .lista{
     flex-direction: column;
     justify-content: start;
-    max-height: 150px;
+    max-height: none;
     flex-wrap: wrap;
     display: flex;
     list-style: none;
+}
+
+@media(min-width: 1000px){
+    .lista{
+        max-height: 150px;
+    }
 }
 
 footer{
