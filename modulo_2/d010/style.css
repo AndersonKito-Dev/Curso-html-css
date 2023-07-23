@@ -59,6 +59,15 @@ header{
     text-align: center;
 }
 
+#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu a:hover{
+    text-decoration: underline;
+}
+
 #menu{
     background-color: #1A5C38;
     color: white;
@@ -68,9 +77,11 @@ header{
 
     text-align: left;
 
-    padding: 0.5px 15px;
+    padding: 10px 15px;
     border: 10px;
 }
+
+
 
 .Secao-textual{
     background-color: white;
@@ -100,11 +111,33 @@ p{
 #Extra{
     background-color:#84E1AD;
 
-    padding: 10px;
+    margin: 10px;
 
     border-radius: 20px;
 }
 
+#titulo-extra{
+    background-color: #3CD983;
+    color: white;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    padding: 10px;
+}
+
+.texto-extra{
+    padding: 0px 10px 10px 10px;
+}
+
+.lista{
+    flex-direction: column;
+    justify-content: start;
+    max-height: 150px;
+    flex-wrap: wrap;
+    display: flex;
+    list-style: none;
+}
 
 footer{
     background-color: #1A5C38;
