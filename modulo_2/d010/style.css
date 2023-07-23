@@ -1,3 +1,5 @@
+@charset "UTF-8"
+
 @font-face {
     font-family: 'Idroid';
     src: url(/modulo_2/d010/docs/fontes/idroid.otf);
@@ -65,7 +67,10 @@ header{
 }
 
 #menu a:hover{
+    background-color:#3cd98367;
     text-decoration: underline;
+    padding: 5px;
+    border-radius: 10px 15px;
 }
 
 #menu{
