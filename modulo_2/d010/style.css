@@ -67,15 +67,26 @@ header{
     text-decoration: none;
 }
 #menu button {
-    background-color: #195C38;
+    background-color:#195C38;
     color: white;
     text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+#home{
+    display: none;
 }
 
 #menu a:hover{
     background-color:#3cd98367;
     text-decoration: underline;
     padding: 5px;
+    border-radius: 10px 15px;
+}
+#menu button:hover{
+    background-color:#3cd98367;
+    text-decoration: underline;
     border-radius: 10px 15px;
 }
 
