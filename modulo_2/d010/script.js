@@ -10,3 +10,13 @@ document.getElementById('btnHOME').addEventListener('click', function() {
         home.style.display = 'none';
     }
 });
+
+document.getElementById('btnNoticias').addEventListener('click', function() {
+    var noticias = document.getElementById('noticias')
+    
+    if (noticias.style.display === 'none') {
+        noticias.style.display = 'block'
+    } else {
+        noticias.style.display = 'none'
+    }
+})
