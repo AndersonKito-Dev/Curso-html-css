@@ -66,6 +66,11 @@ header{
     color: white;
     text-decoration: none;
 }
+#menu button {
+    background-color: #195C38;
+    color: white;
+    text-decoration: none;
+}
 
 #menu a:hover{
     background-color:#3cd98367;
