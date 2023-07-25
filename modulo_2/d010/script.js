@@ -1,6 +1,6 @@
 // Adicione um evento de clique ao botão
-document.getElementById('btnHOME').addEventListener('click', function() {
-    var home = document.getElementById('home');
+document.getElementById('btnHOME').addEventListener('click', function () {
+    var home = document.getElementById('homeConteudo');
 
     // Se o menu estiver oculto, exibe-o
     if (home.style.display === 'none') {
@@ -11,9 +11,9 @@ document.getElementById('btnHOME').addEventListener('click', function() {
     }
 });
 
-document.getElementById('btnNoticias').addEventListener('click', function() {
-    var noticias = document.getElementById('noticias')
-    
+document.getElementById('btnNoticias').addEventListener('click', function () {
+    var noticias = document.getElementById('noticiasConteudo')
+
     if (noticias.style.display === 'none') {
         noticias.style.display = 'block'
     } else {
