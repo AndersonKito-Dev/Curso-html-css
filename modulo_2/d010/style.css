@@ -92,7 +92,6 @@ header {
     padding: 5px;
 }
 
-
 #menu a:hover {
     background-color: #3cd98367;
     font-weight: bold;
@@ -113,6 +112,7 @@ header {
 
 #homeConteudo,
 #noticiasConteudo,
+#curiosidadesConteudo,
 #faleConoscoConteudo {
     display: none;
 }
@@ -139,8 +139,10 @@ main {
     font-size: 24px;
 }
 
-p {
+main p {
     text-indent: 50px;
+    font-size: 1em;
+    line-height: 1.5em;
 }
 
 a {

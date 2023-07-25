@@ -21,6 +21,16 @@ document.getElementById('btnNoticias').addEventListener('click', function () {
     }
 })
 
+document.getElementById('btnCuriosidades').addEventListener('click', function () {
+    var curiosidades = document.getElementById('curiosidadesConteudo')
+
+    if (curiosidades.style.display === 'none') {
+        curiosidades.style.display = 'block'
+    } else {
+        curiosidades.style.display = 'none'
+    }
+})
+
 document.getElementById('btnFaleConosco').addEventListener('click', function () {
     var faleConosco = document.getElementById('faleConoscoConteudo')
 
