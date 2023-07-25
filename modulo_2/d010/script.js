@@ -20,3 +20,13 @@ document.getElementById('btnNoticias').addEventListener('click', function () {
         noticias.style.display = 'none'
     }
 })
+
+document.getElementById('btnFaleConosco').addEventListener('click', function () {
+    var faleConosco = document.getElementById('faleConoscoConteudo')
+
+    if (faleConosco.style.display === 'none') {
+        faleConosco.style.display = 'block'
+    } else {
+        faleConosco.style.display = 'none'
+    }
+})

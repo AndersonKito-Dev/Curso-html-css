@@ -80,6 +80,7 @@ header {
 #menu a {
     color: white;
     text-decoration: none;
+    padding: 5px;
 }
 
 #menu button {
@@ -88,25 +89,37 @@ header {
     text-decoration: none;
     border: none;
     cursor: pointer;
+    padding: 5px;
 }
 
-#homeConteudo,
-#noticiasConteudo {
-    display: none;
-}
 
 #menu a:hover {
     background-color: #3cd98367;
-    text-decoration: underline;
-    padding: 1px;
-    border-radius: 10px 15px;
+    font-weight: bold;
+    text-decoration: none;
+    transition-duration: .3s;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 #menu button:hover {
     background-color: #3cd98367;
+    font-weight: bold;
+    text-decoration: none;
+    transition-duration: .3s;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#homeConteudo,
+#noticiasConteudo,
+#faleConoscoConteudo {
+    display: none;
+}
+
+#faleConoscoConteudo>a:hover {
     text-decoration: underline;
-    padding: 1px;
-    border-radius: 10px 15px;
+    transition-duration: .3s;
 }
 
 main {
