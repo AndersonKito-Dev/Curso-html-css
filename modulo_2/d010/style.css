@@ -22,7 +22,6 @@ img {
     padding-bottom: 56.25%; 
     overflow: hidden;
     background-color: #195C38;
-    margin: 0px 150px 0px 150px;
 }
   
 .video-container iframe {
@@ -62,6 +61,19 @@ header{
     text-align: center;
 }
 
+#menu{
+    background-color: #1A5C38;
+    color: white;
+    
+    font-size: 90%;
+    /* word-spacing: 10px; */
+
+    text-align: center;
+
+    padding: 10px 15px;
+    border: 10px;
+}
+
 #menu a {
     color: white;
     text-decoration: none;
@@ -81,33 +93,24 @@ header{
 #menu a:hover{
     background-color:#3cd98367;
     text-decoration: underline;
-    padding: 5px;
+    padding: 1px;
     border-radius: 10px 15px;
 }
 #menu button:hover{
     background-color:#3cd98367;
     text-decoration: underline;
+    padding: 1px;
     border-radius: 10px 15px;
 }
 
-#menu{
-    background-color: #1A5C38;
-    color: white;
-    
-    font-size: 90%;
-    word-spacing: 10px;
-
-    text-align: left;
-
-    padding: 10px 15px;
-    border: 10px;
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .Secao-textual{
     background-color: white;
-
-    margin: 0px 150px;
-
     padding: 10px 20px;
 }
 
