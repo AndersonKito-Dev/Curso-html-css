@@ -8,6 +8,7 @@ document.getElementById('btnHOME').addEventListener('click', function () {
     } else {
         // Caso contrário, oculta o menu
         home.style.display = 'none';
+        // }
     }
 });
 
