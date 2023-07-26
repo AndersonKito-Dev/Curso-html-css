@@ -185,14 +185,10 @@ a {
     max-height: none;
     flex-wrap: wrap;
     display: flex;
-    list-style: none;
+    list-style-type: '\2714\00A0\00A0';
 }
 
-@media(min-width: 1000px) {
-    .lista {
-        max-height: 150px;
-    }
-}
+
 
 footer {
     background-color: #1A5C38;
