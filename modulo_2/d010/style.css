@@ -1,10 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
-@font-face {
-    font-family: 'Idroid';
-    src: url(/modulo_2/d010/docs/fontes/idroid.otf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
 
 .img-container {
     display: flex;
@@ -134,7 +130,7 @@ main {
 }
 
 #titulo {
-    font-family: 'Idroid';
+    font-family: 'Tektur', cursive;
     color: #195C38;
     font-size: 24px;
 }
@@ -151,7 +147,7 @@ a {
 }
 
 .titulos-secundarios {
-    font-family: 'Idroid';
+    font-family: 'Tektur', cursive;
     color: #195C38;
     background-image: linear-gradient(to right, #84E1AD, white);
 }
