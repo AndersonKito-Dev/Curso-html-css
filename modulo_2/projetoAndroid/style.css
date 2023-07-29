@@ -73,11 +73,6 @@ header {
     border: 10px;
 }
 
-#menu a {
-    color: white;
-    text-decoration: none;
-    padding: 5px;
-}
 
 #menu button {
     background-color: #195C38;
@@ -88,20 +83,11 @@ header {
     padding: 5px;
 }
 
-#menu a:hover {
-    background-color: #3cd98367;
-    font-weight: bold;
-    text-decoration: none;
-    transition-duration: .3s;
-    padding: 5px;
-    border-radius: 5px;
-}
-
 #menu button:hover {
     background-color: #3cd98367;
     font-weight: bold;
     text-decoration: none;
-    transition-duration: .3s;
+    transition-duration: 3ms;
     padding: 5px;
     border-radius: 5px;
 }
