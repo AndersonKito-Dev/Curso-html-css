@@ -1,0 +1,25 @@
+body {
+    background-image: url(imagens_do_cap/wallpaper002.jpg);
+}
+
+.quadrado {
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+
+    border-radius: 10px;
+
+    display: inline-block;
+}
+
+#q1 {
+    background-image: url(imagens_do_cap/pattern001.png);
+}
+
+#q2 {
+    background-image: url(imagens_do_cap/pattern002.png);
+}
+
+#q3 {
+    background-image: url(imagens_do_cap/pattern003.png);
+}
