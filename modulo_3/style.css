@@ -1,25 +1,22 @@
-body {
-    background-image: url(imagens_do_cap/wallpaper002.jpg);
-}
-
-.quadrado {
+.bloco {
     border: 1px solid black;
-    width: 300px;
-    height: 300px;
+    height: 200px;
+    margin: 5px;
 
     border-radius: 10px;
 
-    display: inline-block;
+    background-image: url(imagens_do_cap/wallpaper003.jpg);
 }
 
+
 #q1 {
-    background-image: url(imagens_do_cap/pattern001.png);
+    background-position: top;
 }
 
 #q2 {
-    background-image: url(imagens_do_cap/pattern002.png);
+    background-position: center;
 }
 
 #q3 {
-    background-image: url(imagens_do_cap/pattern003.png);
+    background-position: bottom;
 }
