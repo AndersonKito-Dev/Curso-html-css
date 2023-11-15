@@ -1,31 +1,19 @@
 .container {
-    height: 100vh;
-    background-image: url(imagens_do_cap/wallpaper001.jpg);
-    background-size: cover;
+    height: 98vh;
+    background-image: url(imagens_do_cap/wallpaper003.jpg);
+    background-size: 100% 100%;
 }
 
 .bloco {
-    border: 1px solid black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
     height: 200px;
-    margin: 5px;
+    width: 400px;
 
-    border-radius: 10px;
-
-    background-image: url(imagens_do_cap/wallpaper003.jpg);
-
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-#q1 {
-    background-position: top;
-}
-
-#q2 {
-    background-position: center;
-}
-
-#q3 {
-    background-position: bottom;
+    background-image: url('imagens_do_cap/target001.png');
+    background-size: 100% 100%;
+    background-color: purple;
 }
