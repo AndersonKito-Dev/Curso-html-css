@@ -1,0 +1,40 @@
+header {
+    background-color: black;
+    padding: 150px;
+    margin: -8px;
+
+    color: white;
+    text-align: center;
+}
+
+.imagem {
+    background-image: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 98vh;
+
+
+}
+
+.container {
+    background-color: white;
+    font-size: 25px;
+    line-height: 25px;
+
+
+}
+
+#poema1 {
+    padding: 125px 0px 150px 50px;
+    text-align: left;
+    font-size: 30px;
+}
+
+#poema2 {
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    font-size: 30px;
+    margin-inline-end: 75%;
+
+    padding-left: 10px;
+}
