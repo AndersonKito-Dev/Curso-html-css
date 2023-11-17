@@ -2,42 +2,70 @@ header {
     background-color: black;
     padding: 100px;
     margin: -8px;
-
+    font-size: 50px;
     color: white;
     text-align: center;
 }
 
+h6 {
+    font-size: 16px;
+}
+
 a {
     text-decoration: none;
-    color: white
+    color: white;
+    font-weight: 1000
+}
+
+p {
+    margin-left: 36px;
+    margin-inline-end: 60%;
+
+    padding: 30px 120px 80px 55px;
+
+    text-align: left;
+    font-size: 40px;
+    line-height: 50px;
 }
 
 .imagem {
-    background-image: url('imagens/background001.jpg');
     background-repeat: no-repeat;
-    background-position: center;
-    height: 100%;
-
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: -8px;
 }
 
-.container {
+#img01 {
+    background-image: url('imagens/background001.jpg');
+}
+
+#img02 {
+    background-image: url('imagens/background002.jpg');
+}
+
+.normal {
     background-color: white;
-    font-size: 25px;
-    line-height: 25px;
 }
 
-#poema1,
-#poema3 {
-    padding: 125px 0px 150px 50px;
-    text-align: left;
-    font-size: 30px;
-}
-
-#poema2 {
+#poema2,
+#poema4 {
     background-color: rgba(0, 0, 0, 0.459);
     color: white;
-    font-size: 30px;
-    margin-inline-end: 73%;
+}
 
-    padding: 30px 120px 80px 55px;
+footer {
+    background-color: black;
+    color: white;
+
+    font-size: 90%;
+
+    text-align: center;
+
+    padding: 10px;
+    margin: 0px -8px -8px -8px;
+}
+
+footer>a {
+    color: white;
 }
