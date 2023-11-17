@@ -3,12 +3,15 @@ header {
     padding: 100px;
     margin: -8px;
     font-size: 50px;
+    font-variant: small-caps;
     color: white;
     text-align: center;
 }
 
-h6 {
+header>p {
     font-size: 16px;
+    font-variant: normal;
+    text-align: center;
 }
 
 a {
@@ -17,7 +20,7 @@ a {
     font-weight: 1000
 }
 
-p {
+section>p {
     margin-left: 36px;
     margin-inline-end: 60%;
 
@@ -44,12 +47,7 @@ p {
     background-image: url('imagens/background002.jpg');
 }
 
-.normal {
-    background-color: white;
-}
-
-#poema2,
-#poema4 {
+.imagem>p {
     background-color: rgba(0, 0, 0, 0.459);
     color: white;
 }
