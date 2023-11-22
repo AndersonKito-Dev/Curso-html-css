@@ -1,53 +1,70 @@
+/* Estilos globais para html e body */
+html,
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o header */
 header {
     background-color: black;
-    padding: 100px;
-    margin: -8px;
-    font-size: 50px;
+    padding: 20px;
+    /* Reduzi o padding para evitar excessos */
+    font-size: 2.5rem;
+    /* Use 'rem' para unidades de fonte responsivas */
     font-variant: small-caps;
     color: white;
     text-align: center;
 }
 
 header>p {
-    font-size: 16px;
-    font-variant: normal;
+    font-size: 1rem;
+    /* Reduzi o tamanho da fonte para ser mais proporcional */
     text-align: center;
 }
 
+/* Estilos para links */
 a {
     text-decoration: none;
     color: white;
-    font-weight: 1000
+    font-weight: bold;
+    /* Troquei '1000' por 'bold' para consistência */
 }
 
 a:hover {
     text-decoration: underline;
 }
 
+/* Estilos para seção */
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding: 10vh 0;
+    /* Combine as propriedades de padding */
 }
 
 section>p {
-    margin-left: 36px;
-    margin-inline-end: 60%;
-
-    padding: 30px 120px 80px 55px;
-
+    margin-left: 2rem;
+    /* Use 'rem' para unidades de margem responsivas */
+    margin-right: 60%;
+    padding: 2rem 7.5rem 5rem 4rem;
+    /* Combine as propriedades de padding */
     text-align: left;
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 2.5rem;
+    line-height: 3.125rem;
+    /* Use 'rem' para unidades de linha responsivas */
 }
 
+/* Estilos para imagens */
 .imagem {
     background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
-    margin: -8px;
+    margin: 0;
+    /* Removi a margem negativa para evitar problemas de layout */
 }
 
+/* Estilos específicos para cada imagem */
 #img01 {
     background-image: url('imagens/background001.jpg');
 }
@@ -61,16 +78,14 @@ section>p {
     color: white;
 }
 
+/* Estilos para o rodapé */
 footer {
     background-color: black;
     color: white;
-
     font-size: 90%;
-
     text-align: center;
-
     padding: 10px;
-    margin: 0px -8px -8px -8px;
+    margin: 0;
 }
 
 footer>a {
