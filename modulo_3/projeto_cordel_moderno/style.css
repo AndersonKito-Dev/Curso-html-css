@@ -68,10 +68,10 @@ section>p {
 /* Estilos para imagens */
 .imagem {
     background-repeat: no-repeat;
-    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
+    background-position: right center;
     /* Removi a margem negativa para evitar problemas de layout */
 }
 
