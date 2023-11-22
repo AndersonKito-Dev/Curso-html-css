@@ -25,13 +25,11 @@ header {
     /* Use 'rem' para unidades de fonte responsivas */
     font-variant: small-caps;
     color: white;
-    text-align: center;
 }
 
 header>p {
     font-size: 1rem;
     /* Reduzi o tamanho da fonte para ser mais proporcional */
-    text-align: center;
 }
 
 /* Estilos para links */
@@ -71,7 +69,6 @@ section>p {
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
-    background-position: right center;
     /* Removi a margem negativa para evitar problemas de layout */
 }
 
@@ -94,7 +91,6 @@ footer {
     background-color: black;
     color: white;
     font-size: 90%;
-    text-align: center;
     padding: 10px;
     margin: 0;
 }
